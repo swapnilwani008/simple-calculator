@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(rgb(193, 8, 250),rgb(253, 11, 104));
+}
+
+
+h1 {  
+    text-align: center;  
+    padding: 2px;  
+    background-color: rgb(250, 164, 6);  
+    color: rgb(0, 0, 0);  
+    }  
+  
+#clear{  
+    width: 270px;  
+    border: 1px solid rgb(5, 0, 0);  
+    border-radius: 3px; 
+    margin-top: 5%; 
+    padding: 2px;  
+    background-color: rgb(238, 106, 106);
+    cursor: pointer;  
+}  
+#clear:hover{
+    background: linear-gradient(
+        90deg,rgb(247, 8, 8),rgb(236, 12, 12)
+
+    );
+}
+.formstyle  
+{  
+    width: 300px;  
+    height: 450px;  
+    margin: auto;  
+    border: 3px solid rgb(0, 9, 12);  
+    border-radius: 5px;  
+    padding: 20px;  
+}  
+  
+  
+  
+input  
+{  
+      
+    border: 3px solid rgb(7, 0, 0);   
+    padding: 15px;  
+    margin: 2px;  
+    font-size: 15px;  
+    font-weight: 1000; 
+    color:black;
+    
+}  
+  
+.btn{
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin-left: 5%;
+    cursor: pointer;
+    
+} 
+.btn:hover{
+    background-color: darkorange;
+} 
+#calc{  
+    width: 250px;  
+    border: 3px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto; 
+    background-color: rgb(180, 10, 47); 
+}
+
+
+#equal:hover{
+    background-color:chartreuse;
+}
